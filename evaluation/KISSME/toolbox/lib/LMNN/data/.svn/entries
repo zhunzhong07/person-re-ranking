@@ -1,0 +1,54 @@
+8
+
+dir
+455
+https://svn.cis.upenn.edu/svnroot/lksmlg/common/algorithms/LMNN/data
+https://svn.cis.upenn.edu/svnroot/lksmlg
+
+
+
+2006-10-26T19:11:12.495119Z
+111
+lksmlg
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+38c5f050-661f-0410-ba73-9d620db92ef7
+
+bal2.mat
+file
+
+
+
+
+2006-10-10T05:47:58.000000Z
+1e8cd38f17abc1f750bb9a201eb08a5a
+2006-10-26T19:11:12.495119Z
+111
+lksmlg
+has-props
+
+iris2.mat
+file
+
+
+
+
+2006-10-10T05:47:58.000000Z
+7c44f7ccb3ded8c5dd6f652f1fb8edbb
+2006-10-26T19:11:12.495119Z
+111
+lksmlg
+has-props
+

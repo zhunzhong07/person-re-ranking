@@ -1,0 +1,16 @@
+net: "models/CUHK03/ResNet_50/ResNet_50_IDE_labeled_train_val.prototxt"
+
+display: 20
+average_loss: 20
+
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 15000
+max_iter: 75000
+
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 0
+snapshot_prefix: "output/CUHK03_train/ResNet_50_IDE_labeled"
+solver_mode: GPU

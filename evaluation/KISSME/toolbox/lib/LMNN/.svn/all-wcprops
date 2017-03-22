@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/lksmlg/!svn/ver/455/common/algorithms/LMNN
+END
+demo.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/lksmlg/!svn/ver/111/common/algorithms/LMNN/demo.m
+END
+knnclassify.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/lksmlg/!svn/ver/454/common/algorithms/LMNN/knnclassify.m
+END
+lmnn.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/lksmlg/!svn/ver/367/common/algorithms/LMNN/lmnn.m
+END
+install.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/lksmlg/!svn/ver/455/common/algorithms/LMNN/install.m
+END
+energyclassify.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/lksmlg/!svn/ver/331/common/algorithms/LMNN/energyclassify.m
+END
+runlmnn.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/lksmlg/!svn/ver/117/common/algorithms/LMNN/runlmnn.m
+END
+applypca.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/lksmlg/!svn/ver/412/common/algorithms/LMNN/applypca.m
+END
+setpaths.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/lksmlg/!svn/ver/111/common/algorithms/LMNN/setpaths.m
+END
+pca.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/lksmlg/!svn/ver/412/common/algorithms/LMNN/pca.m
+END

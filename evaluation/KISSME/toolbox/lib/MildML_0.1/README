@@ -1,0 +1,41 @@
+****************************************
+******** Matlab code for MildML ********
+****************************************
+
+To compile, run "mexall" in matlab, or use the provided linux x86_64
+compiled mex file.
+
+Libpthread is required for multi-threading.
+
+If you use this code for a publication, please cite either two papers:
+@InProceedings{GVS10a,
+  author       = "Matthieu Guillaumin and Jakob Verbeek and Cordelia Schmid",
+  title        = "Multiple instance metric learning from automatically labeled bags of faces",
+  booktitle    = "European Conference on Computer Vision",
+  month        = "sep",
+  year         = "2010",
+  url          = "http://lear.inrialpes.fr/pubs/2010/GVS10a"
+}
+@InProceedings{GVS09,
+  author       = "Matthieu Guillaumin and Jakob Verbeek and Cordelia Schmid",
+  title        = "Is that you? Metric learning approaches for face identification",
+  booktitle    = "International Conference on Computer Vision",
+  pages        = "498--505",
+  month        = "sep",
+  year         = "2009",
+  keywords     = "LEAR, LJK, CLASS",
+  url          = "http://lear.inrialpes.fr/pubs/2009/GVS09"
+}
+
+****************************************
+************** Copyrights **************
+****************************************
+mildml*:
+Copyright (C) 2009 - 2010 by Matthieu Guillaumin, INRIA
+
+minimize.m:
+Copyright (C) 2001 - 2006 by Carl Edward Rasmussen (2006-09-08).
+
+compute_tasks.c:
+Copyright (C) by Matthijs Douze, INRIA
+

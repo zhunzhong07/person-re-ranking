@@ -1,0 +1,9 @@
+K 11
+svn::ignore
+V 5
+*.mat
+K 13
+svn:mime-type
+V 24
+application/octet-stream
+END

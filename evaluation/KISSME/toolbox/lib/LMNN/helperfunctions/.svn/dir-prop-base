@@ -1,0 +1,10 @@
+K 11
+svn::ignore
+V 5
+*.mat
+K 10
+svn:ignore
+V 3
+*~
+
+END
