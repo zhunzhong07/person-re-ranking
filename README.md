@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Re-ranking Person Re-identification with k-reciprocal Encoding 
 ================================================================
 
@@ -69,7 +68,7 @@ The new training/testing protocol split for CUHK03 in our paper is in the "evalu
   matlab CUHK03_extract_feature.m
   ```
   
-3. Evaluation with our re-ranking method
+3. Evaluation
   ```Shell
   # evaluation for Market-1501
   matlab Market_1501_evaluation.m
@@ -85,7 +84,7 @@ You can download our pre-trained IDE models and IDE features, and put them in th
 
 - IDE features [[Baiduyun]](https://pan.baidu.com/s/1c1TtKcw) [[Google drive]](https://drive.google.com/open?id=0B7TOZKXmIjU3ODhaRm8yN2QzRHc)
 
-Using the above IDE models and IDE features, you can reproduce the results with our re-ranking method as follows:
+Using the above IDE models and IDE features, you can reproduce the results as follows:
 
 - Market-1501
 
@@ -116,4 +115,3 @@ If you have any questions about this code, please do not hesitate to contact us.
 
 =======
 # person-re-ranking
->>>>>>> 8479ff10372e05534e4294c41347581dd73ec201
