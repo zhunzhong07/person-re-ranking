@@ -16,14 +16,15 @@ If you find this code useful in your research, please consider citing:
     
     
 ## The new training/testing protocol for CUHK03
-
-The new protocol splits the dataset into training set and testing set, which consist of 767 identities and 730 identities respectively. In testing, we randomly select one image from each camera as the query for each identity and use the rest of images to construct the gallery set.
+================================================================
+The new protocol splits the CUHK03 dataset into training set and testing set, which consist of 767 identities and 730 identities respectively. In testing, we randomly select one image from each camera as the query for each identity and use the rest of images to construct the gallery set.
 
 The new training/testing protocol split for CUHK03 in our paper is in the "evaluation/data/CUHK03/" folder.
 - cuhk03_new_protocol_config_detected.mat
 - cuhk03_new_protocol_config_labeled.mat
 
-
+## IDE Baseline
+================================================================
 ### Requirements: Caffe
 
 Requirements for `Caffe` and `matcaffe` (see: [Caffe installation instructions](http://caffe.berkeleyvision.org/installation.html))
