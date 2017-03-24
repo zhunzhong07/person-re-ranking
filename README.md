@@ -13,6 +13,15 @@ If you find this code useful in your research, please consider citing:
       booktitle={CVPR},
       year={2017}
     }
+    
+    
+## The new training/testing protocol for CUHK03
+
+The new protocol splits the dataset into training set and testing set, which consist of 767 identities and 730 identities respectively. In testing, we randomly select one image from each camera as the query for each identity and use the rest of images to construct the gallery set.
+
+The new training/testing protocol split for CUHK03 in our paper is in the "evaluation/data/CUHK03/" folder.
+- cuhk03_new_protocol_config_detected.mat
+- cuhk03_new_protocol_config_labeled.mat
 
 
 ### Requirements: Caffe
@@ -40,11 +49,6 @@ Requirements for `Caffe` and `matcaffe` (see: [Caffe installation instructions](
 - [Market-1501](https://pan.baidu.com/s/1ntIi2Op)
 
 - CUHK03 [[Baiduyun]](https://pan.baidu.com/s/1o8txURK) [[Google drive]](https://drive.google.com/open?id=0B7TOZKXmIjU3OUhfd3BPaVRHZVE)
-
-### The new training/testing protocol for CUHK03
-The new training/testing protocol split for CUHK03 in our paper is in the "evaluation/data/CUHK03/" folder.
-- cuhk03_new_protocol_config_detected.mat
-- cuhk03_new_protocol_config_labeled.mat
 
 ### Training and testing IDE model
 
