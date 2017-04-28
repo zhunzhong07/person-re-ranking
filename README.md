@@ -14,6 +14,16 @@ If you find this code useful in your research, please consider citing:
       year={2017}
     }
     
+The neighbor encoding method of our paper is inspired by the reference [2]. For more details of the application on image retrieval please refer to:
+
+    @article{bai2016sparse,
+      title={Sparse contextual activation for efficient visual re-ranking},
+      author={Bai, Song and Bai, Xiang},
+      journal={IEEE Transactions on Image Processing},
+      year={2016},
+      publisher={IEEE}
+    }
+    
 ================================================================ 
 ## The new training/testing protocol for CUHK03
 
