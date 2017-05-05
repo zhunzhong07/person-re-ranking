@@ -116,6 +116,7 @@ For Market-1501, these results are better than those reported in our paper, sinc
 | |  Labeled | Labeled|  detected | detected|
 | -------| -----  | ----  |----  |----  |
 |Methods |  Rank@1 | mAP|  Rank@1 | mAP|
+|LOMO  + XQDA      | 14.8% | 13.6%|12.8% | 11.5%|
 |IDE_CaffeNet  + Euclidean | 15.6% | 14.9%|  15.1% | 14.2%|
 |IDE_CaffeNet  + XQDA      | 21.9% | 20.0%|21.1% | 19.0%|
 |IDE_ResNet_50  + Euclidean | 22.2% | 21.0%|21.3% | 19.7%|
