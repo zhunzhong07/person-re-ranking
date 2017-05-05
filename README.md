@@ -38,6 +38,13 @@ The new training/testing protocol split for CUHK03 in our paper is in the "evalu
 - cuhk03_new_protocol_config_detected.mat
 - cuhk03_new_protocol_config_labeled.mat
 
+
+| |  Labeled | detected|
+| -------| -----  | ----  |
+|#Training |  7,368 | 7,365|  
+|#Query      | 1,400 | 1,400|
+|#Gallery      | 5,328% | 5,332|
+
 ================================================================
 ## IDE Baseline + Re-ranking
 
@@ -123,8 +130,8 @@ For Market-1501, these results are better than those reported in our paper, sinc
 | |  Labeled | Labeled|  detected | detected|
 | -------| -----  | ----  |----  |----  |
 |Methods |  Rank@1 | mAP|  Rank@1 | mAP|
-|BOW  + XQDA [1]      | -% | -%|6.36% | 6.39%|
-|BOW  + XQDA + re-ranking     | -% | -%|8.29% | 8.81%|
+|BOW  + XQDA [1]      | 7.93% | 7.29%|6.36% | 6.39%|
+|BOW  + XQDA + re-ranking     | 8.93% | 9.94%|8.29% | 8.81%|
 |LOMO  + XQDA [3]      | 14.8% | 13.6%|12.8% | 11.5%|
 |LOMO  + XQDA + re-ranking     | 19.1% | 20.8%|16.6% | 17.8%|
 |IDE_CaffeNet  + Euclidean | 15.6% | 14.9%|  15.1% | 14.2%|
