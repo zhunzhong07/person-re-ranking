@@ -43,7 +43,7 @@ The new training/testing protocol split for CUHK03 in our paper is in the "evalu
 | -------| -----  | ----  |
 |#Training |  7,368 | 7,365|  
 |#Query      | 1,400 | 1,400|
-|#Gallery      | 5,328% | 5,332|
+|#Gallery      | 5,328 | 5,332|
 
 ================================================================
 ## IDE Baseline + Re-ranking
