@@ -1,9 +1,10 @@
 # Re-ranking Person Re-identification with k-reciprocal Encoding 
 ================================================================
 
-### This code has the IDE baseline for the Market-1501 and CUHK03 new training/testing protocol.
-
-### The re-ranking code is available upon request.
+### This code has the source code for the paper "Re-ranking Person Re-identification with k-reciprocal Encoding". Including:
+1. IDE baseline
+2. Re-ranking code
+3. The CUHK03 new training/testing protocol
 
 If you find this code useful in your research, please consider citing:
 
