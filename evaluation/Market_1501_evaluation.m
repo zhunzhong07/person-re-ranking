@@ -14,6 +14,11 @@ addpath(genpath('LOMO_XQDA/'));
 run('KISSME/toolbox/init.m');
 addpath(genpath('utils/'));
 
+%% re-ranking setting
+k1 = 20;
+k2 = 6;
+lambda = 0.3;
+
 %% network name
 netname = 'ResNet_50'; % network: CaffeNet  or ResNet_50 googlenet
 
@@ -58,6 +63,16 @@ fprintf(['The IDE (' netname ') + Euclidean performance:\n']);
 fprintf(' Rank1,  mAP\n');
 fprintf('%5.2f%%, %5.2f%%\n\n', CMC_eu(1) * 100, map_eu(1)*100);
 
+%% Euclidean + re-ranking
+query_num = size(probFea, 2);
+dist_eu_re = re_ranking( [probFea galFea], 1, 1, query_num, k1, k2, lambda);
+[CMC_eu_re, map_eu_re, ~, ~] = evaluation(dist_eu_re, label_gallery, label_query, cam_gallery, cam_query);
+
+fprintf(['The IDE (' netname ') + Euclidean + re-ranking performance:\n']);
+fprintf(' Rank1,  mAP\n');
+fprintf('%5.2f%%, %5.2f%%\n\n', CMC_eu_re(1) * 100, map_eu_re(1)*100);
+
+
 %% train and test XQDA
 [train_sample1, train_sample2, label1, label2] = gen_train_sample_xqda(label_train, cam_train, train_feature); % generate pairwise training features for XQDA
 [W, M_xqda] = XQDA(train_sample1, train_sample2, label1, label2);% train XQDA
@@ -68,3 +83,11 @@ dist_xqda = MahDist(M_xqda, galFea' * W, probFea' * W); % calculate MahDist betw
 fprintf(['The IDE (' netname ') + XQDA performance:\n']);
 fprintf(' Rank1,  mAP\n');
 fprintf('%5.2f%%, %5.2f%%\n\n', CMC_xqda(1) * 100, map_xqda(1)*100);
+%% XQDA + re-ranking
+query_num = size(probFea, 2);
+dist_xqda_re = re_ranking( [probFea galFea], M_xqda, W, query_num, k1, k2, lambda);
+[CMC_xqda_re, map_xqda_re, ~, ~] = evaluation(dist_xqda_re, label_gallery, label_query, cam_gallery, cam_query);
+
+fprintf(['The IDE (' netname ') + XQDA + re-ranking performance:\n']);
+fprintf(' Rank1,  mAP\n');
+fprintf('%5.2f%%, %5.2f%%\n\n', CMC_xqda_re(1) * 100, map_xqda_re(1)*100);
