@@ -35,7 +35,7 @@ The new training/testing protocol split for CUHK03 in our paper is in the "evalu
 - cuhk03_new_protocol_config_labeled.mat
 
 ================================================================
-## IDE Baseline
+## IDE Baseline + Re-ranking
 
 ### Requirements: Caffe
 
@@ -119,7 +119,7 @@ For Market-1501, these results are better than those reported in our paper, sinc
 | |  Labeled | Labeled|  detected | detected|
 | -------| -----  | ----  |----  |----  |
 |Methods |  Rank@1 | mAP|  Rank@1 | mAP|
-|LOMO  + XQDA      | 14.8% | 13.6%|12.8% | 11.5%|
+|LOMO  + XQDA [1]      | 14.8% | 13.6%|12.8% | 11.5%|
 |LOMO  + XQDA + re-ranking     | 19.1% | 20.8%|16.6% | 17.8%|
 |IDE_CaffeNet  + Euclidean | 15.6% | 14.9%|  15.1% | 14.2%|
 |IDE_CaffeNet  + Euclidean + re-ranking | 19.1% | 21.3%|19.3% | 20.6%|
@@ -129,6 +129,11 @@ For Market-1501, these results are better than those reported in our paper, sinc
 |IDE_ResNet_50  + Euclidean + re-ranking | 26.6% | 28.9%|24.9% | 27.3%|
 |IDE_ResNet_50  + XQDA      | 32.0% | 29.6%|31.1% | 28.2%|
 |IDE_ResNet_50  + XQDA + re-ranking     | 38.1% | 40.3%|34.7% | 37.4%|
+
+### References
+
+[1] Person re-identification by local maximal occurrence representation and metric learning. Liao S, Hu Y, Zhu X, et al. In CVPR. 2015
+[2] Sparse contextual activation for efficient visual re-ranking. Bai, Song and Bai, Xiang. IEEE Transactions on Image Processing. 2016
 
 ### Contact us
 
