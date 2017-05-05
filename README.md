@@ -4,7 +4,7 @@
 ### This code has the source code for the paper "Re-ranking Person Re-identification with k-reciprocal Encoding". Including:
 1. IDE baseline
 2. Re-ranking code
-3. The CUHK03 new training/testing protocol
+3. CUHK03 new training/testing protocol
 
 If you find this code useful in your research, please consider citing:
 
@@ -101,14 +101,16 @@ You can download our pre-trained IDE models and IDE features, and put them in th
 
 - IDE features [[Baiduyun]](https://pan.baidu.com/s/1c1TtKcw) [[Google drive]](https://drive.google.com/open?id=0B7TOZKXmIjU3ODhaRm8yN2QzRHc)
 
-Using the above IDE models and IDE features, you can reproduce the results as follows:
+Using the above IDE models and IDE features, you can reproduce the results with our re-ranking method as follows:
 
 - Market-1501
 
 |Methods |   Rank@1 | mAP|
 | --------   | -----  | ----  |
 |IDE_ResNet_50  + Euclidean | 78.92% | 55.03%|
+|IDE_ResNet_50  + Euclidean + re-ranking | 81.44% | 70.39%|
 |IDE_ResNet_50  + XQDA      | 77.58% | 56.06%|
+|IDE_ResNet_50  + XQDA + re-ranking     | 80.70% | 69.98%|
 
 For Market-1501, these results are better than those reported in our paper, since we add a dropout = 0.5 layer after pool5.
 
@@ -118,10 +120,15 @@ For Market-1501, these results are better than those reported in our paper, sinc
 | -------| -----  | ----  |----  |----  |
 |Methods |  Rank@1 | mAP|  Rank@1 | mAP|
 |LOMO  + XQDA      | 14.8% | 13.6%|12.8% | 11.5%|
+|LOMO  + XQDA + re-ranking     | 19.1% | 20.8%|16.6% | 17.8%|
 |IDE_CaffeNet  + Euclidean | 15.6% | 14.9%|  15.1% | 14.2%|
+|IDE_CaffeNet  + Euclidean + re-ranking | 19.1% | 21.3%|19.3% | 20.6%|
 |IDE_CaffeNet  + XQDA      | 21.9% | 20.0%|21.1% | 19.0%|
+|IDE_CaffeNet  + XQDA + re-ranking     | 25.9% | 27.8%|26.4% | 26.9%|
 |IDE_ResNet_50  + Euclidean | 22.2% | 21.0%|21.3% | 19.7%|
+|IDE_ResNet_50  + Euclidean + re-ranking | 26.6% | 28.9%|24.9% | 27.3%|
 |IDE_ResNet_50  + XQDA      | 32.0% | 29.6%|31.1% | 28.2%|
+|IDE_ResNet_50  + XQDA + re-ranking     | 38.1% | 40.3%|34.7% | 37.4%|
 
 ### Contact us
 
