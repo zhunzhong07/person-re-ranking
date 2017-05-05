@@ -133,6 +133,7 @@ For Market-1501, these results are better than those reported in our paper, sinc
 ### References
 
 [1] Person re-identification by local maximal occurrence representation and metric learning. Liao S, Hu Y, Zhu X, et al. In CVPR. 2015
+
 [2] Sparse contextual activation for efficient visual re-ranking. Bai, Song and Bai, Xiang. IEEE Transactions on Image Processing. 2016
 
 ### Contact us
