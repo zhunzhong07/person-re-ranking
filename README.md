@@ -50,11 +50,7 @@ The new training/testing protocol split for CUHK03 in our paper is in the "evalu
 
 |Methods | Labeled | Labeled|  detected | detected| Reference|
 | -------| -----  | ----  |----  |----  | |
-| |  Rank@1 | mAP|  Rank@1 | mAP|  |
-|BOW  + XQDA    | 7.93% | 7.29%|6.36% | 6.39%|"[Scalable person re-identification: a benchmark](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7410490)", Zheng Liang, Shen Liyue, Tian Lu, Wang Shengjin, Wang Jingdong and Tian, Qi, ICCV 2015 [[project]](http://www.liangzheng.org/Project/project_reid.html)|
-|LOMO  + XQDA [3]      | 14.8% | 13.6%|12.8% | 11.5%|"[Person Re-identification by Local Maximal Occurrence Representation and Metric Learning](https://arxiv.org/abs/1406.4216)", Liao Shengcai, Hu Yang, Zhu Xiangyu and Li Stan Z, CVPR 2015 [[project]](http://www.cbsr.ia.ac.cn/users/scliao/projects/lomo_xqda/index.html)|
-|IDE_ResNet_50  + Euclidean | 22.2% | 21.0%|21.3% | 19.7%|
-|IDE_ResNet_50  + XQDA + re-ranking     | 38.1% | 40.3%|34.7% | 37.4%|
+
 
 
 ================================================================
