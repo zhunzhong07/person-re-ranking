@@ -48,14 +48,15 @@ The new training/testing protocol split for CUHK03 in our paper is in the "evalu
 
 ### State-of-the-art
 
-|--- |  Labeled | Labeled|  detected | detected|  |
+| - |  Labeled | Labeled|  detected | detected|  |
 | -------| -----  | ----  |----  |----  |----  |
 |Methods | Rank@1 | mAP|  Rank@1 | mAP| Reference |
 |BOW+XQDA| 7.93% | 7.29%|6.36% | 6.39%|"[Scalable person re-identification: a benchmark](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7410490)", Zheng Liang, Shen Liyue, Tian Lu, Wang Shengjin, Wang Jingdong and Tian, Qi, ICCV 2015 [[project]](http://www.liangzheng.org/Project/project_reid.html)|
+|PUL| - | -|9.1% | 9.2%|"[Unsupervised Person Re-identification: Clustering and Fine-tuning](https://arxiv.org/pdf/1705.10444.pdf)", Hehe Fan, Liang Zheng and Yi Yang, arXiv:1705.10444  [[code]](https://github.com/hehefan/Unsupervised-Person-Re-identification-Clustering-and-Fine-tuning)|
 |LOMO+XQDA| 14.8% | 13.6%|12.8% | 11.5%|"[Person Re-identification by Local Maximal Occurrence Representation and Metric Learning](https://arxiv.org/abs/1406.4216)", Liao Shengcai, Hu Yang, Zhu Xiangyu and Li Stan Z, CVPR 2015 [[project]](http://www.cbsr.ia.ac.cn/users/scliao/projects/lomo_xqda/index.html)|
 |IDE| 22.2% | 21.0%|21.3% | 19.7%|"[Person Re-identification: Past, Present and Future](https://arxiv.org/abs/1610.02984)", Zheng Liang, Yi Yang, and Alexander G. Hauptmann, arXiv:1610.02984 [[code]](https://github.com/zhunzhong07/IDE-baseline-Market-1501)|
 |IDE+XQ.+re-ranking     | 38.1% | 40.3%|34.7% | 37.4%| "[Re-ranking Person Re-identification with k-reciprocal Encoding](http://zhunzhong.site/paper/re-ranking-cvpr.pdf)", Zhun Zhong, Liang Zheng, Donglin Cao,Shaozi Li, CVPR 2017 [[code]](https://github.com/zhunzhong07/person-re-ranking)|
-|PAN| 36.9% | 35.0%|36.3% | 34.0%| "[Pedestrian Alignment Network for Person Re-identification](https://arxiv.org/abs/1707.00408)", Zhedong Zheng, Liang Zheng, Yi Yang, arxiv [[code]](https://github.com/layumi/Pedestrian_Alignment)|
+|PAN| 36.9% | 35.0%|36.3% | 34.0%| "[Pedestrian Alignment Network for Person Re-identification](https://arxiv.org/abs/1707.00408)", Zhedong Zheng, Liang Zheng, Yi Yang, arXiv:1707.00408 [[code]](https://github.com/layumi/Pedestrian_Alignment)|
 |PAN+re-ranking| 43.9% | 45.8%|41.9% | 43.8%| "[Pedestrian Alignment Network for Person Re-identification](https://arxiv.org/abs/1707.00408)", Zhedong Zheng, Liang Zheng, Yi Yang, arxiv [[code]](https://github.com/layumi/Pedestrian_Alignment)|
 
 
