@@ -50,6 +50,7 @@ The new training/testing protocol split for CUHK03 in our paper is in the "evalu
 
 |Methods | Labeled | Labeled|  detected | detected| Reference|
 | -------| -----  | ----  |----  |----  | |
+| |  Rank@1 | mAP|  Rank@1 | mAP|  |
 
 
 
