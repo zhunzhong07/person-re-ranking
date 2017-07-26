@@ -58,6 +58,8 @@ The new training/testing protocol split for CUHK03 in our paper is in the "evalu
 |IDE+XQ.+re-ranking     | 38.1% | 40.3%|34.7% | 37.4%| "[Re-ranking Person Re-identification with k-reciprocal Encoding](http://zhunzhong.site/paper/re-ranking-cvpr.pdf)", Zhun Zhong, Liang Zheng, Donglin Cao,Shaozi Li, CVPR 2017 [[code]](https://github.com/zhunzhong07/person-re-ranking)|
 |PAN| 36.9% | 35.0%|36.3% | 34.0%| "[Pedestrian Alignment Network for Person Re-identification](https://arxiv.org/abs/1707.00408)", Zhedong Zheng, Liang Zheng, Yi Yang, arXiv:1707.00408 [[code]](https://github.com/layumi/Pedestrian_Alignment)|
 |PAN+re-ranking| 43.9% | 45.8%|41.9% | 43.8%| "[Pedestrian Alignment Network for Person Re-identification](https://arxiv.org/abs/1707.00408)", Zhedong Zheng, Liang Zheng, Yi Yang, arXiv:1707.00408 [[code]](https://github.com/layumi/Pedestrian_Alignment)|
+|SVDNet| - | -|41.5% | 37.26%| "[SVDNet for Pedestrian Retrieval](https://arxiv.org/abs/1703.05693)", Sun Yifan, Zheng Liang, Deng Weijian, Wang Shengjin, ICCV 2017|
+|SVDNet+XQDA+re-ranking| - | -|48.7% | 50.2%| "[SVDNet for Pedestrian Retrieval](https://arxiv.org/abs/1703.05693)", Sun Yifan, Zheng Liang, Deng Weijian, Wang Shengjin, ICCV 2017|
 
 
 ================================================================
