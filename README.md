@@ -59,6 +59,8 @@ The new training/testing protocol split for CUHK03 in our paper is in the "evalu
 |PAN| 36.9% | 35.0%|36.3% | 34.0%| "[Pedestrian Alignment Network for Person Re-identification](https://arxiv.org/abs/1707.00408)", Zhedong Zheng, Liang Zheng, Yi Yang, arXiv:1707.00408 [[code]](https://github.com/layumi/Pedestrian_Alignment)|
 |PAN+re-ranking| 43.9% | 45.8%|41.9% | 43.8%| "[Pedestrian Alignment Network for Person Re-identification](https://arxiv.org/abs/1707.00408)", Zhedong Zheng, Liang Zheng, Yi Yang, arXiv:1707.00408 [[code]](https://github.com/layumi/Pedestrian_Alignment)|
 |SVDNet| 40.93 | 37.83|41.5% | 37.26%| "[SVDNet for Pedestrian Retrieval](https://arxiv.org/abs/1703.05693)", Sun Yifan, Zheng Liang, Deng Weijian, Wang Shengjin, ICCV 2017|
+|SVDNet_re-ranking| 47.93 | 50.05|46.43% | 48.95%| "[SVDNet for Pedestrian Retrieval](https://arxiv.org/abs/1703.05693)", Sun Yifan, Zheng Liang, Deng Weijian, Wang Shengjin, ICCV 2017|
+|SVDNet+XQDA| 44.07 | 40.06|42.71% | 39.08%| "[SVDNet for Pedestrian Retrieval](https://arxiv.org/abs/1703.05693)", Sun Yifan, Zheng Liang, Deng Weijian, Wang Shengjin, ICCV 2017|
 |SVDNet+XQDA+re-ranking| 49.86 | 51.83|48.7% | 50.2%| "[SVDNet for Pedestrian Retrieval](https://arxiv.org/abs/1703.05693)", Sun Yifan, Zheng Liang, Deng Weijian, Wang Shengjin, ICCV 2017|
 
 
