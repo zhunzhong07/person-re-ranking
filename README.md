@@ -15,7 +15,7 @@ If you find this code useful in your research, please consider citing:
       year={2017}
     }
     
-The neighbor encoding method of our paper is inspired by the reference [2]. For more details of the application on image retrieval please refer to:
+The neighbor encoding method of our paper is inspired by the reference [2]. If you use the re-ranking code in your paper, please also cite:
 
     @article{bai2016sparse,
       title={Sparse contextual activation for efficient visual re-ranking},
