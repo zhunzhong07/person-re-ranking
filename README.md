@@ -61,6 +61,7 @@ The new training/testing protocol split for CUHK03 in our paper is in the "evalu
 |DPFL | 43.0% | 40.5%|40.7% | 37.0%| "[Person Re-Identification by Deep Learning Multi-Scale Representations](http://www.eecs.qmul.ac.uk/~sgg/papers/ChenEtAl_ICCV2017WK_CHI.pdf?nsukey=bFKy637SdfiMPVNHqNPm9DbM4V%2BJvHS3xsL4zYv0aecUKkedzKZC304%2FT4Ot96qbKCoD%2BbcV7OA92VISMCiqLzSj4%2BBCbF3cYAmodWYkUhcK%2FFYRtZ3LLKff1Fb0GVNplfrcVq%2B%2BJJ2QO5uMDyiIFth9%2BAhb8Ib%2FZ0%2FkZyqB9rnsLKHkBXa6SI5OMMibGklQ)", Yanbei Chen, Xiatian Zhu, Shaogang Gong|
 |SVDNet| 40.93 | 37.83|41.5% | 37.26%| "[SVDNet for Pedestrian Retrieval](https://arxiv.org/abs/1703.05693)", Sun Yifan, Zheng Liang, Deng Weijian, Wang Shengjin, ICCV 2017|
 |TriNet+Random Erasing| 58.14% | 53.83% | 55.50% | 50.74%| "[Random Erasing Data Augmentation](https://arxiv.org/abs/1708.04896)", Zhun Zhong, Liang Zheng, Guoliang Kang, Shaozi Li, Yi Yang, arXiv 2017|
+|TriNet+Random Erasing+Re.| 63.93% | 65.05% | 64.43% | 64.75%| "[Random Erasing Data Augmentation](https://arxiv.org/abs/1708.04896)", Zhun Zhong, Liang Zheng, Guoliang Kang, Shaozi Li, Yi Yang, arXiv 2017|
 
 ================================================================
 ## IDE Baseline + Re-ranking
