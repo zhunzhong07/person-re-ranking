@@ -26,6 +26,10 @@ The neighbor encoding method of our paper is inspired by the reference [2]. If y
     }
     
 ================================================================ 
+
+## A python version of re-ranking reproduced by Hao Luo is in the "python/" folder. Thanks Hao!
+
+
 ## The new training/testing protocol for CUHK03
 
 The new protocol splits the CUHK03 dataset into training set and testing set similar to that of Market-1501, which consist of 767 identities and 700 identities respectively. 
