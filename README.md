@@ -27,7 +27,7 @@ The neighbor encoding method of our paper is inspired by the reference [2]. If y
     
 ================================================================ 
 
-## A python version of re-ranking reproduced by Hao Luo is in the "python/" folder. Thanks Hao!
+### A python version of re-ranking reproduced by Hao Luo (haoluocsc@zju.edu.cn) is in the "python/" folder. Thanks Hao!
 
 
 ## The new training/testing protocol for CUHK03
