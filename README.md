@@ -27,7 +27,12 @@ The neighbor encoding method of our paper is inspired by the reference [2]. If y
     
 ================================================================ 
 
-### A python version of re-ranking reproduced by Hao Luo (haoluocsc@zju.edu.cn) is in the "python/" folder. Thanks Hao!
+### Two python version of re-ranking fcuntions are added in the 'python' folder.
+1. re_ranking_feature.py: re-ranking with original feature, Euclidean distance is used. Thanks Hao Luo @michuanhaohao !
+2. re_ranking_ranklist: re-ranking with given distance matrices, handle the difference of / division between python 2 and 3. Thanks @huanghoujing !
+
+
+A python version of re-ranking reproduced by Hao Luo (haoluocsc@zju.edu.cn) is in the "python/" folder. Thanks Hao!
 
 ================================================================ 
 
