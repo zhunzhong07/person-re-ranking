@@ -31,7 +31,7 @@ The neighbor encoding method of our paper is inspired by the reference [2]. If y
 1. re_ranking_feature.py: re-ranking with original feature, Euclidean distance is used. Thanks [Hao Luo](https://github.com/michuanhaohao) !
 2. re_ranking_ranklist: re-ranking with given distance matrices, handle the difference of / division between python 2 and 3. Thanks [huang houjing](https://github.com/huanghoujing)  !
 
-### Pytorch re-implementations
+### Pytorch re-implementation
 [[Person_reID_baseline + Random Erasing + Re-ranking]](https://github.com/layumi/Person_reID_baseline_pytorch)
 
 ================================================================ 
