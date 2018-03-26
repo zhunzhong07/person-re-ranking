@@ -72,6 +72,7 @@ The new training/testing protocol split for CUHK03 in our paper is in the "evalu
 |SVDNet| 40.93 | 37.83|41.5% | 37.26%| "[SVDNet for Pedestrian Retrieval](https://arxiv.org/abs/1703.05693)", Sun Yifan, Zheng Liang, Deng Weijian, Wang Shengjin, ICCV 2017|
 |TriNet+Random Erasing| 58.14% | 53.83% | 55.50% | 50.74%| "[Random Erasing Data Augmentation](https://arxiv.org/abs/1708.04896)", Zhun Zhong, Liang Zheng, Guoliang Kang, Shaozi Li, Yi Yang, arXiv 2017|
 |TriNet+Random Erasing+Re.| 63.93% | 65.05% | 64.43% | 64.75%| "[Random Erasing Data Augmentation](https://arxiv.org/abs/1708.04896)", Zhun Zhong, Liang Zheng, Guoliang Kang, Shaozi Li, Yi Yang, arXiv 2017|
+|PCB (RPP)| - | - | 63.7% | 67.5%| "[Beyond Part Models: Person Retrieval with Refined Part Pooling (and A Strong Convolutional Baseline)](https://arxiv.org/pdf/1711.09349.pdf)", Yifan Sun, Liang Zheng, Yi Yang, Qi Tian, Shengjin Wang, arXiv 2017|
 
 ================================================================
 ## IDE Baseline + Re-ranking
