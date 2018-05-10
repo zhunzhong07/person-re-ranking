@@ -6,7 +6,7 @@ In testing, we randomly select one image from each camera as the query for each 
 
 In evaluation, true matched images captured in the same camera as the query are viewed as “junk”.  Meaning that junk images is of zero influence to re-id accuracy (CMC/mAP).
 
-The new training/testing protocol split for CUHK03 in our paper is in the "evaluation/data/CUHK03/" folder.
+The new training/testing protocol split for CUHK03 in our paper is in the "root/evaluation/data/CUHK03/" folder.
 - cuhk03_new_protocol_config_detected.mat
 - cuhk03_new_protocol_config_labeled.mat
 
