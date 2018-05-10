@@ -19,8 +19,19 @@ The new training/testing protocol split for CUHK03 in our paper is in the "root/
 
 - CUHK03 [[Baiduyun]](https://pan.baidu.com/s/1o8txURK) [[Google drive]](https://drive.google.com/open?id=0B7TOZKXmIjU3OUhfd3BPaVRHZVE)
 
+## Download CUHK03-NP
+We also provide the CUHK03-NP as the format of Market-1501. You can download it following:
+- [[CUHK03-NP](https://pan.baidu.com/s/1RNvebTccjmmj1ig-LVjw7A)]
 
-### State-of-the-art
+- Directory Structure
+
+Followings are the directory structure for CUHK03-NP. 
+> cuhk03-np
+>> detected/labeled
+>>> bounding_box_train/bounding_box_test/query
+
+
+## State-of-the-art
 
 | - |  Labeled | Labeled|  detected | detected|  |
 | -------| -----  | ----  |----  |----  |----  |
