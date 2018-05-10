@@ -37,7 +37,7 @@ The neighbor encoding method of our paper is inspired by the reference [2]. If y
 ================================================================ 
 
 ## The new training/testing protocol for CUHK03
-[[Dataset and state-of-the-art]](https://github.com/zhunzhong07/person-re-ranking/tree/master/CUHK03-NP)
+[[Dataset and state-of-the-art](https://github.com/zhunzhong07/person-re-ranking/tree/master/CUHK03-NP)]
 
 
 
