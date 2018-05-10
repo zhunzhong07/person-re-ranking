@@ -30,6 +30,22 @@ Followings are the directory structure for CUHK03-NP.
 >> detected/labeled
 >>> bounding_box_train/bounding_box_test/query
 
+If you use CUHK03-NP in your experiment, please consider citing:
+
+    @inproceedings{zhong2017re,
+      title={Re-ranking Person Re-identification with k-reciprocal Encoding},
+      author={Zhong, Zhun and Zheng, Liang and Cao, Donglin and Li, Shaozi},
+      booktitle={CVPR},
+      year={2017}
+    }
+    
+    @inproceedings{li2014deepreid,
+    title={DeepReID: Deep Filter Pairing Neural Network for Person Re-identification},
+    author={Li, Wei and Zhao, Rui and Xiao, Tong and Wang, Xiaogang},
+    booktitle={CVPR},
+    year={2014}
+    }
+
 
 ## State-of-the-art
 
