@@ -17,6 +17,8 @@ The new training/testing protocol split for CUHK03 in our paper is in the "root/
 |#Query      | 1,400 | 1,400|
 |#Gallery      | 5,328 | 5,332|
 
+- CUHK03 [[Baiduyun]](https://pan.baidu.com/s/1o8txURK) [[Google drive]](https://drive.google.com/open?id=0B7TOZKXmIjU3OUhfd3BPaVRHZVE)
+
 
 ### State-of-the-art
 
