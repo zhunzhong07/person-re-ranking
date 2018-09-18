@@ -45,6 +45,10 @@ If you use CUHK03-NP in your experiment, please consider citing:
     booktitle={CVPR},
     year={2014}
     }
+    
+## [CUHK03-NP-Mask](https://github.com/developfeng/MGCAM/tree/master/data)
+
+You can also obtain the person mask of CUHK03-NP from [CUHK03-NP-Mask](https://github.com/developfeng/MGCAM/tree/master/data).
 
 
 ## State-of-the-art
