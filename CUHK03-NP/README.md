@@ -21,7 +21,7 @@ The new training/testing protocol split for CUHK03 in our paper is in the "root/
 
 ## Download CUHK03-NP
 We also provide the CUHK03-NP as the format of Market-1501. You can download it following:
-- [[CUHK03-NP](https://pan.baidu.com/s/1RNvebTccjmmj1ig-LVjw7A)]
+- CUHK03-NP [[Baiduyun](https://pan.baidu.com/s/1RNvebTccjmmj1ig-LVjw7A)] [[Google Drive](https://drive.google.com/open?id=1pBCIAGSZ81pgvqjC-lUHtl0OYV1icgkz)]
 
 - Directory Structure
 
