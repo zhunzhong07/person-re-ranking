@@ -67,6 +67,7 @@ You can also obtain the person mask of CUHK03-NP from [CUHK03-NP-Mask](https://g
 |SVDNet| 40.93 | 37.83|41.5% | 37.26%| "[SVDNet for Pedestrian Retrieval](https://arxiv.org/abs/1703.05693)", Sun Yifan, Zheng Liang, Deng Weijian, Wang Shengjin, ICCV 2017|
 |HA-CNN| 44.4%| 41.0% |41.7% |38.6%| "[Harmonious Attention Network for Person Re-Identification](https://arxiv.org/pdf/1802.08122.pdf)", Wei Li1 Xiatian Zhu2 Shaogang Gong1, CVPR 2018|
 |HCN+XQDA+RR| 43.7%| 45.3%| 44.0%| 46.9%| "[HIERARCHICAL CROSS NETWORK FOR PERSON RE-IDENTIFICATION](https://arxiv.org/pdf/1712.06820.pdf)", Huan-Cheng Hsu, Ching-Hang Chen, Hsiao-Rong Tyan, Hong-Yuan Mark Liao, arxiv 2017|
+|DLCE | - | - | 49.86% | 44.62 | "[A discriminatively learned CNN embedding for person reidentification](https://arxiv.org/pdf/1611.05666.pdf)", Zhedong Zheng, Liang Zheng, Yi Yang, TOMM18 [[code]](https://github.com/layumi/Person-reID-verification)|
 |MLFN| 54.7% | 49.2%| 52.8%| 47.8%| "[Multi-Level Factorisation Net for Person Re-Identification](https://arxiv.org/pdf/1803.09132.pdf)", Xiaobin Chang, Timothy M. Hospedales, Tao Xiang， CVPR 2018|
 |DaRe| 58.1% | 53.7% | 55.1% | 51.3%| "[Resource Aware Person Re-identification across Multiple Resolutions](http://www.cs.cornell.edu/~gaohuang/papers/Anytime-ReID.pdf)", Yan Wang, Lequn Wang, Yurong You, Xu Zou, Vincent Chen. CVPR 2018|
 |TriNet+RE| 58.14% | 53.83% | 55.50% | 50.74%| "[Random Erasing Data Augmentation](https://arxiv.org/abs/1708.04896)", Zhun Zhong, Liang Zheng, Guoliang Kang, Shaozi Li, Yi Yang, arXiv 2017|
