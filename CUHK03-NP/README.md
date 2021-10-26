@@ -17,11 +17,11 @@ The new training/testing protocol split for CUHK03 in our paper is in the "root/
 |#Query      | 1,400 | 1,400|
 |#Gallery      | 5,328 | 5,332|
 
-- CUHK03 [[Baiduyun]](https://pan.baidu.com/s/1o8txURK) [[Google drive]](https://drive.google.com/open?id=0B7TOZKXmIjU3OUhfd3BPaVRHZVE)
+- CUHK03 [[Baiduyun]]() [[Google drive]](https://drive.google.com/file/d/0B7TOZKXmIjU3OUhfd3BPaVRHZVE/view?resourcekey=0-hU4gyE6hFsBgizIh9DFqtA)
 
 ## Download CUHK03-NP
 We also provide the CUHK03-NP as the format of Market-1501. You can download it following:
-- CUHK03-NP [[Baiduyun](https://pan.baidu.com/s/1RNvebTccjmmj1ig-LVjw7A)] [[Google Drive](https://drive.google.com/open?id=1pBCIAGSZ81pgvqjC-lUHtl0OYV1icgkz)]
+- CUHK03-NP [[Baiduyun]()] [[Google Drive](https://drive.google.com/open?id=1pBCIAGSZ81pgvqjC-lUHtl0OYV1icgkz)]
 
 - Directory Structure
 
